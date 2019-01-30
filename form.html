@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Signup Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+    #header {
+        color: white;
+        text-align: center;
+        font-size: 50px
+    }
+    #form{
+        color: black;
+        width: 500px;
+        height:400px;
+	margin: 0 auto;
+    background-color: white;
+    padding:50px;
+}
+.input{
+    width: 50%;
+  padding: 3px;
+  margin: 8px 0;
+  box-sizing: border-box;
+    
+}
+
+#submit{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  background-color:#4FC6BF;
+  color: white;
+  font-size: 20px
+}
+label{
+width: 100px;
+    float: left;
+}
+</style>
+
+<body style="background-color: #4FC6BF">
+    <h2 id="header">Signup Form</h2>
+    <form id="form" action="form2.html">
+        <label>First Name :</label>
+        <input type="text" class="input" required><br>
+        <label>Last Name :</label>
+        <input type="text" class="input" required><br>
+        <label>Email : </label>
+        <input type="email" class="input" required><br>
+        <label>Password :</label>
+        <input type="password" class="input" required><br>
+        <label>Confirm Password :</label>
+        <input type="password" class="input" required><br>
+        <label>Gender : </label>
+        <input type="radio" name="gender"  value="male" checked> Male &nbsp;
+        <input type="radio" name="gender"  value="female"> Female<br>
+        <input type="submit" id="submit">
+
+    </form>
+</body>
+
+</html>
